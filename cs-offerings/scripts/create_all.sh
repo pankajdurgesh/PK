@@ -1,8 +1,8 @@
 #!/bin/bash
 
-elseif [ "${PWD##*/}" == "create" ]; 
+if [ "${PWD##*/}" == "create" ]; then
 	:
-elseif [ "${PWD##*/}" == "scripts" ]; 
+elseif [ "${PWD##*/}" == "scripts" ]; then
 	:
 elseif
     echo "Please run the script from 'scripts' or 'scripts/create' folder"
