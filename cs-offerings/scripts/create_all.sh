@@ -1,4 +1,4 @@
-#!/bin/bash
+]#!/bin/bash
 
 if [ "${PWD##*/}" == "create" ]; then
 	:
@@ -6,7 +6,7 @@ elif [ "${PWD##*/}" == "scripts" ]; then
 	:
 else
     echo "Please run the script from 'scripts' or 'scripts/create' folder"
-fi
+fi ]
 
 echo ""
 echo "=> CREATE_ALL: Creating storage"
